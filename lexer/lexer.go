@@ -15,6 +15,7 @@ type Lexer struct {
 
 }
 
+// like a constructtor for lexer, loads the first char in positon to be read
 func New(input string) *Lexer {
 	l := &Lexer{input: input}
 	l.readChar()
