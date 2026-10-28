@@ -4,7 +4,7 @@
 package lexer
 
 import (
-	"go-monkey/token"
+	"go-monkey/interpreter/token"
 )
 
 type Lexer struct {

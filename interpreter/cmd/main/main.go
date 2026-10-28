@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-monkey/repl"
+	"go-monkey/interpreter/repl"
 	"os"
 	"os/user"
 )
